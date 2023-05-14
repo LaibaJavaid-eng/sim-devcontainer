@@ -16,7 +16,7 @@
             "ppa": "false"
         },
         "ghcr.io/devcontainers/features/desktop-lite:1": {},
-        "ghcr.io/devcontainers/features/python:1": "none"
+        "ghcr.io/devcontainers/features/python:1": {}
     },
     "runArgs": ["--gpus=all"],
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
