@@ -37,4 +37,6 @@ stack-data==0.6.2 \
 sympy==1.12 \
 tornado==6.3.1 \
 traitlets==5.9.0 \
-wcwidth==0.2.6
+wcwidth==0.2.6 \
+dm-control==1.0.12 \
+Pillow==8.4.0
