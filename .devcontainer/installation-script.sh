@@ -38,5 +38,8 @@ sympy==1.12 \
 tornado==6.3.1 \
 traitlets==5.9.0 \
 wcwidth==0.2.6 \
-dm-control==1.0.12 \
-Pillow==8.4.0
+Pillow==8.4.0 \
+scipy==1.10.1 \
+matplotlib==3.7.1 \
+matplotlib-inline==0.1.6 \
+numpy==1.21.5
