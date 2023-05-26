@@ -9,3 +9,20 @@ if subprocess.run('nvidia-smi').returncode:
         'Cannot communicate with GPU. '
         'Make sure you are using a GPU Colab runtime. '
         'Go to the Runtime menu and select Choose runtime type.')
+
+# %%
+
+import numpy as np
+import matplotlib.pyplot as plt
+# %%
+# Testing plotting functionality with a simple parabola
+x = np.linspace(-5, 5, 1000)
+y = x**2
+plt.plot(x, y)
+ # %%
+
+
+# %%
+
+
+# %%
