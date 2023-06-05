@@ -16,11 +16,12 @@
             "ppa": "false"
         },
         // Comment out the "ghcr.io/devcontainers/features/nvidia-cuda:1" feature if host machine doesn't have nvidia hardware installed.
-        "ghcr.io/devcontainers/features/nvidia-cuda:1": {},
+        //"ghcr.io/devcontainers/features/nvidia-cuda:1": {}
         "ghcr.io/devcontainers/features/desktop-lite:1": {},
         "ghcr.io/devcontainers/features/python:1": {}
     },
-    "runArgs": ["--gpus=all"],
+    // Comment "["--gpus=all"]" out if host machine doesn't have nvidia hardware installed.
+    //"runArgs": ["--gpus=all"],
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
 
