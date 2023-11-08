@@ -16,6 +16,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && apt-get upgrade -y \
     && apt-get install -y sudo \
     && apt-get install -y python3-pip \
+    && apt-get install -y openssh-client \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
