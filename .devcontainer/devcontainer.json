@@ -1,11 +1,11 @@
 {
     "name": "Ubuntu 22.04 Jammy Dev Container",
     "privileged": true,
-    "remoteUser": "uazam",
+    "remoteUser": "laibajavaid",
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
-            "USERNAME": "uazam"
+            "USERNAME": "laibajavaid"
         }
     },
 
