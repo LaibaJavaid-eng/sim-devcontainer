@@ -1,7 +1,7 @@
 ARG VARIANT="jammy"
 FROM buildpack-deps:${VARIANT}-curl
 
-ARG USERNAME=uazam
+ARG USERNAME=laibajavaid
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
